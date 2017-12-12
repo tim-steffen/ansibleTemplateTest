@@ -1,0 +1,30 @@
+---
+# vars file for templateTest
+
+menu_database_password:
+  Dev: "{{menu_database_password_encrypt}}"
+  QA: "{{menu_database_password_encrypt}}"
+  PROD_BLUE: "{{menu_database_password_encrypt}}"
+  PROD_GREEN: "{{menu_database_password_encrypt}}"
+menu_database_username:
+  Dev: "{{menu_database_username_encrypt}}"
+  QA: "{{menu_database_username_encrypt}}"
+  PROD_BLUE: "{{menu_database_username_encrypt}}"
+  PROD_GREEN: "{{menu_database_username_encrypt}}"
+location_database_password:
+  Dev: "{{location_database_password_encrypt.Dev}}"
+  QA: "{{location_database_password_encrypt.QA}}"
+  PROD_BLUE: "{{location_database_password_encrypt.PROD_BLUE}}"
+  PROD_GREEN: "{{location_database_password_encrypt.PROD_GREEN}}"
+location_database_username:
+  Dev: "{{location_database_username_encrypt.Dev}}"
+  QA: "{{location_database_username_encrypt.QA}}"
+  PROD_BLUE: "{{location_database_username_encrypt.PROD_BLUE}}"
+  PROD_GREEN: "{{location_database_username_encrypt.PROD_GREEN}}"
+
+timeout_service: '3"1'
+
+use_master_list: 'true'
+
+
+

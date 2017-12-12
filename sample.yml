@@ -1,0 +1,7 @@
+---
+- hosts: "{{host_group}}"
+  vars_files: 
+   - 'sample/vars/passwords.yml'
+
+  roles:
+   - sample

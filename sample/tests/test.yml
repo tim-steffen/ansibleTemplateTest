@@ -1,0 +1,4 @@
+---
+- hosts: "{{host_group}}"
+  roles:
+    - "/home/tim/ansible/sample"

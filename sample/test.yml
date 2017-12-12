@@ -1,0 +1,13 @@
+---
+- hosts: "{{host_group}}"
+  roles:
+   - sample
+
+  #tasks:
+  # - name: Create the propertie for for {{environ}}
+  #   template:
+  #        src=templates/server.properties
+  #        dest=/home/tim/ansible/sample/server.properties
+    
+    
+##ansible-playbook -i hosts MASTER.yml --ask-sudo-pass --extra-vars="host_group=swawm_master" -vvv --vault-password-file pass
